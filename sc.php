@@ -70,9 +70,9 @@ function create() {
         return false;
     }
     var myid1 = myid;
-    kd.href = 'https://duoduoxuexi.github.io/zyj'+myid.value+'&url='+url.value;   //在这修改域名   替换就行
+    kd.href = 'https://duoduoxuexi.github.io/zyj/?id='+myid.value+'&url='+url.value;   //在这修改域名   替换就行
     kd.style = ''; 
-    kd.innerText = 'https://duoduoxuexi.github.io/zyj'+myid.value+'&url='+url.value; //两个都要替换    这就好了
+    kd.innerText = 'https://duoduoxuexi.github.io/zyj/?id='+myid.value+'&url='+url.value; //两个都要替换    这就好了
     //总结两点   配置ssl   不会百度    然后修改替换域名完事 就是这么简单 小学生基础
 
     
